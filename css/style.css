@@ -1,0 +1,205 @@
+
+body {
+  font-family: Poppins;
+  margin:0;
+  padding: 0;
+  width:100% ;
+  overflow-x: hidden;
+}
+
+@media only screen and (max-width: 768px){
+  html,
+  body{
+  width:100%;
+  font-family: Poppins;
+  margin:0;
+  padding: 0;
+  overflow-x:hidden;
+  }
+}
+
+.ban {
+  width: 100%;
+  
+  /* box-shadow: 0px 0px 5px 3px rgb(129, 165, 58); */
+
+}
+/* 
+.parallax{
+  background-image: linear-gradient(to right,black,red);
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+} */
+
+
+.projects div{
+  background-image:linear-gradient(to top,rgb(5, 5, 5), rgb(219, 12, 146));
+  padding:75px;
+  box-shadow: 4px 4px 8px 1.2px rgb(94, 92, 92);
+color: rgb(226, 226, 226);
+}
+
+.foot{
+  background-image: linear-gradient(to left,rgb(13, 8, 37),rgb(18, 6, 63));
+  text-align: center;
+  padding:20px;
+
+}
+
+
+.data{
+  padding: 50px;
+  background-image: linear-gradient(to right,rgb(5, 5, 5),rgb(219, 0, 146));
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+   height: 770px;
+}
+
+
+
+.containers {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+    border-radius: 30px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+.skills {
+  text-align: right;
+  color: white;
+font-size: 9px;
+ border-radius: 30px;
+ padding: 2px;
+}
+
+.para{
+  font-weight:500;
+  color: rgb(85, 85, 85);
+  font-size: 15px;
+}
+
+.html {width: 81%; 
+  background-image: linear-gradient(to right,rgb(5, 5, 5),rgb(219, 0, 146));}
+
+.css {width: 65%; 
+  background-image: linear-gradient(to right,rgb(5, 5, 5),rgb(219, 0, 146));}
+
+.js {width: 60%; 
+  background-image: linear-gradient(to right,rgb(5, 5, 5),rgb(219, 0, 146));}
+
+.php {width: 74%; 
+  background-image: linear-gradient(to right,rgb(5, 5, 5),rgb(219, 0, 146));}
+
+
+.about{
+  background: rgb(255, 255, 255);
+  
+}
+
+.work{
+  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
+  background-image: linear-gradient(to left,rgb(5, 5, 5),rgb(219, 0, 146));
+  
+  padding-top: 12%;
+  height: 1000px;
+}
+
+.name {
+  border-left: 6px solid blueviolet;
+  padding-left: 20px;
+  margin: 85px auto;
+  
+}
+
+.btn {
+  background-color: blueviolet !important;
+  color: white !important;
+  border: none;
+  padding: 9px !important;
+  font-weight: 500!important;
+  box-shadow: 3px 3px 8px 0.2px rgb(220, 184, 255) !important;
+}
+.btn:hover{
+  background-color: rgb(240, 240, 240)!important;
+  color: blueviolet!important;
+  transition: 0.5s ease-in-out;
+  box-shadow: 3px 3px 7px 0.2px rgb(220, 184, 255) !important;
+
+}
+.photo {
+ margin:50px auto ;
+ width: 460px;
+box-shadow:2px 2px 7px 2px rgb(184, 184, 184);
+}
+
+
+@media screen and (max-width:1024px) {
+  .hide {
+    visibility: hidden;
+    clear: both;
+    display: none;
+  }
+
+}
+/* icons */
+
+
+.icon .fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 90px;
+  border:1.2px white solid;
+}
+
+.fa-facebook {
+  border: 1px solid rgb(104, 102, 102);
+  color: rgb(255, 255, 255);
+}
+.fa-instagram {
+  color: rgb(248, 248, 248);
+  border: 1px solid rgb(104, 102, 102);
+}
+
+.fa-linkedin {
+
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(104, 102, 102);
+}
+
+.icon .fa-facebook:hover {
+  
+  background: rgb(36, 74, 155);
+  color: white;
+  border:1.2px solid white;
+  transition: 0.3s ease-in-out;
+}
+
+
+.icon .fa-linkedin:hover {
+    
+    background:#018aca;
+    color: white;
+    border:1.2px solid white;
+    transition: 0.3s ease-in-out;
+}
+
+.icon .fa-instagram:hover {
+
+  color: white;
+  background-image: linear-gradient(to left,rgb(76, 0, 255),rgb(255, 11, 52));
+ 
+  border:1.2px solid white;
+  transition: 0.3s ease-in-out;
+}
+
+
+/* section threee */
+
+
+

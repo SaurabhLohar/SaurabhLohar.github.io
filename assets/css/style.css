@@ -21,6 +21,10 @@ body {
     background-image: linear-gradient(to right, var(--black), var(--green));
 }
 
+.html:hover{
+    background: #fff;
+}
+
 .css {
     width: 58%;
     background-image: linear-gradient(to right, var(--black), var(--green));

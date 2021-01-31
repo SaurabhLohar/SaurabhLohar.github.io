@@ -24,26 +24,63 @@ body {
 .html:hover{
     background: #fff;
     box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+    transition:background 1s;
+    cursor:pointer;
 }
 
 .css {
-    width: 58%;
+    width: 62%;
     background-image: linear-gradient(to right, var(--black), var(--green));
+}
+.css:hover{
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+    transition:background 1s;
+    cursor:pointer;
+}
+
+.jquery {
+    width: 59%;
+    background-image: linear-gradient(to right, var(--black), var(--green));
+}
+.jquery:hover{
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+    transition:background 1s;
+    cursor:pointer;
 }
 
 .php {
     width: 74%;
     background-image: linear-gradient(to right, var(--black), var(--green));
 }
+.php:hover{
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+    transition:background 1s;
+    cursor:pointer;
+}
 
 .django {
     width: 70%;
     background-image: linear-gradient(to right, var(--black), var(--green));
 }
+.django:hover{
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+    transition:background 1s;
+    cursor:pointer;
+}
 
 .db {
     width: 74%;
     background-image: linear-gradient(to right, var(--black), var(--green));
+}
+.db:hover{
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+    transition:background 1s;
+    cursor:pointer;
 }
 
 p {

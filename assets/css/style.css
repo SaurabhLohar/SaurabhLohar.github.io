@@ -17,7 +17,7 @@ body {
 }
 
 .html {
-    width: 68%;
+    width: 72%;
     background-image: linear-gradient(to right, var(--black), var(--green));
 }
 
@@ -29,7 +29,7 @@ body {
 }
 
 .css {
-    width: 62%;
+    width: 68%;
     background-image: linear-gradient(to right, var(--black), var(--green));
 }
 .css:hover{
@@ -40,7 +40,7 @@ body {
 }
 
 .jquery {
-    width: 59%;
+    width: 61%;
     background-image: linear-gradient(to right, var(--black), var(--green));
 }
 .jquery:hover{

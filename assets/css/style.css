@@ -51,7 +51,7 @@ body {
 }
 
 .php {
-    width: 74%;
+    width: 60%;
     background-image: linear-gradient(to right, var(--black), var(--green));
 }
 .php:hover{
@@ -62,7 +62,7 @@ body {
 }
 
 .django {
-    width: 70%;
+    width: 79%;
     background-image: linear-gradient(to right, var(--black), var(--green));
 }
 .django:hover{
